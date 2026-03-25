@@ -1,0 +1,21 @@
+<div class="row g-3">
+
+  <div class="col-md-6" *ngFor="let store of stores">
+    <div class="card shadow text-center p-3">
+
+      <h5>{{store.name}}</h5>
+
+      <button class="btn btn-primary my-2" (click)="toggle(store)">
+        Toggle Branches
+      </button>
+
+      <ul *ngIf="store.show" class="list-group">
+        <li class="list-group-item" *ngFor="let b of store.branches">
+          {{b}}
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+</div>

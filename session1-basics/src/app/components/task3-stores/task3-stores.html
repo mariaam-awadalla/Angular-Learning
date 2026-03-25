@@ -1,0 +1,21 @@
+<div class="row g-3">
+
+  <div class="col-md-6" *ngFor="let store of stores">
+    <div class="card shadow h-100">
+      <!-- <img [src]="store.imgUrl" class="card-img-top"> -->
+       <img src="https://picsum.photos/200/300" class="card-img-top">
+
+      <div class="card-body text-center">
+        <h5>{{store.name}}</h5>
+
+        <ul class="list-group mt-2">
+          <li class="list-group-item" *ngFor="let b of store.branches">
+            {{b}}
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+</div>
