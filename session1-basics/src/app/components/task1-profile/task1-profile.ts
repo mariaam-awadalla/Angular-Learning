@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 export class Task1ProfileComponent {
 
   profile = {
-    name: 'Menna',
+    name: 'Mariam',
     image: 'https://picsum.photos/300/200',
     town: 'Cairo'
   };
