@@ -220,7 +220,7 @@ Transform concepts into a real application:
 
 ---
 
-## 🎨 UI Styling
+# 🎨 UI Styling
 
 Bootstrap was used for styling via CDN:
 
