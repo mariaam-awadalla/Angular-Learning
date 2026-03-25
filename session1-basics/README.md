@@ -220,14 +220,6 @@ Transform concepts into a real application:
 
 ---
 
-# 🎨 UI Styling
-
-Bootstrap was used for styling via CDN:
-
-```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
----
 # 🧠 What I Learned
 
 * Thinking like a developer, not just following tutorials
