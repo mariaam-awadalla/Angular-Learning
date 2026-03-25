@@ -245,12 +245,6 @@ I will move forward to:
 ---
 ✨ Goal: Build real-world Angular applications independently without relying on tutorials
 
-## ▶️ Run the Project
-
-```bash
-npm install
-ng serve -o
-
 
 ## 🎨 UI Styling
 
@@ -258,3 +252,13 @@ Bootstrap was used for styling via CDN:
 
 ```html
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+---
+
+## ▶️ Run the Project
+
+```bash
+npm install
+ng serve -o
+
+
