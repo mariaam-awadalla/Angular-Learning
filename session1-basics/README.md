@@ -1,6 +1,6 @@
 # Angular Session 1 - Basics 🚀
 
-## 📚 Overview
+## Overview
 
 In this session, I started learning Angular fundamentals through **hands-on practice**, not just theory.
 
@@ -14,7 +14,7 @@ I worked on core concepts like:
 
 ---
 
-## 🧠 Angular Flow (Core Concept)
+##  Angular Flow (Core Concept)
 
 ```
 Component (TypeScript)
@@ -30,11 +30,11 @@ Template (HTML)
 
 ---
 
-# 🟢 Level 1 — Easy (Foundation)
+#  Level 1 — Easy (Foundation)
 
-## ✅ Task 1 — Profile Component
+##  Task 1 — Profile Component
 
-### 🎯 Goal
+###  Goal
 
 Create a simple component to display basic data.
 
@@ -49,19 +49,19 @@ Create a simple component to display basic data.
 * Interpolation → `{{ }}`
 * Property Binding → `[src]`
 
-### 💡 Idea:
+###  Idea:
 
 Bind data from TypeScript to the HTML template and render it in the UI.
 
 ---
 
-## ✅ Task 2 — ngFor
+##  Task 2 — ngFor
 
-### 🎯 Goal
+###  Goal
 
 Work with arrays and render list data.
 
-### 📌 Example:
+###  Example:
 
 ```ts
 skills = ['HTML', 'CSS', 'JS'];
@@ -70,7 +70,7 @@ Render using Angular structural directive: `*ngFor`
 ```
 
 
-### 💡 Idea:
+###  Idea:
 
 Angular loops through the array and displays each item dynamically.
 
